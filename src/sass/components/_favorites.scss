@@ -1,0 +1,110 @@
+.favorites-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+
+  max-width: 1280px;
+
+  background-color: #f5f4fa;
+}
+
+.favorites__title {
+  margin-bottom: 20px;
+  text-align: center;
+
+  font-size: 48px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+}
+
+.favorites__text {
+  margin-bottom: 40px;
+
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 1.14;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.favorites-list__item {
+  padding: 5px;
+
+  text-align: center;
+
+  flex-basis: calc((100% - 20px * 3) / 4);
+
+  background-image: linear-gradient(to right, #ffefba, #ffffff);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.oner-wrapper {
+  margin: 20px 0;
+}
+
+.oner-name {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+// .favorites-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   gap: 20px;
+
+//   @media screen and (min-width: $tablet) {
+//     gap: 32px;
+//   }
+// }
+
+// .favorites-list__item {
+//   width: 280px;
+//   height: 282px;
+
+//   @media screen and (max-width: $mobile-max) {
+//     border: 11px solid getColor('border-input-color');
+//   }
+
+//   @media screen and (min-width: $tablet) {
+//     flex-basis: calc((100% - 32px) / 2);
+
+//     height: 338px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     flex-basis: calc((100% - 32px * 2) / 3);
+
+//     height: 397px;
+//   }
+
+//   border-radius: 50%;
+//   border: 14px solid getColor('border-input-color');
+//   border-radius: 50%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   &:hover,
+//   &:focus {
+//     border: 14px solid getColor('link-accent-color');
+//   }
+//   transition: border $transition-duration $timing-function;
+// }
+
+// .favorites-list__item--mob-hidden {
+//   @media screen and (max-width: $mobile-max) {
+//     display: none;
+//   }
+// }
