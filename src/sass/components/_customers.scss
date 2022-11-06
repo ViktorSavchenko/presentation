@@ -133,6 +133,16 @@
   font-size: 18px;
   line-height: 2;
 }
+
+.progect-link {
+  display: flex;
+justify-content: flex-end;
+
+font-size: large;
+text-decoration: underline;
+}
+
+
 // .customers__list {
 //   @media screen and (min-width: $tablet) {
 //     display: flex;
